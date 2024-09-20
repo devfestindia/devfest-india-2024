@@ -8,9 +8,11 @@
   "communityLinks": {
     "page": "https://gdg.community.dev/gdg-london/",
     "website": "https://gdg.community.dev/gdg-london/",
-    "instagram": "https://gdg.community.dev/gdg-london/",
-    "linkedin": "https://www.linkedin.com/company/google-developers-london/",
-    "youtube": "https://gdg.community.dev/gdg-london/"
+    "instagram": "https://www.instagram.com/gdgindia/?hl=en/",
+    "linkedin": "https://www.linkedin.com/company/gdgindia/",
+    "youtube": "https://www.youtube.com/c/GDGIndia/",
+    "twitter": "https://x.com/GDGIndia?mx=2/"
+    
   },
   "eventInfo": {
     "name": "DevFest London 2024",
