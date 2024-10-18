@@ -38,8 +38,8 @@
         "image": "img/common/stats4.png"
       },
       {
-        "name": "Devs reached",
-        "value": "36,000+",
+        "name": "Participants",
+        "value": "25,000+"
         "color": "#C3ECF6",
         "image": "img/common/stats1.png"
       },
@@ -56,8 +56,8 @@
         "image": "img/common/stats2.png"
       },
       {
-        "name": "Locations",
-        "value": "120",
+        "name": "Cities",
+        "value": "50+",
         "color": "#FFE7A5",
         "image": "img/common/stats5.png"
       }
