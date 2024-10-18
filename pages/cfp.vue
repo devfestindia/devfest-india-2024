@@ -1,6 +1,6 @@
 <template>
-  <v-container fluid class="google-font">
-    <v-row justify="start" align="start">
+  <v-container fluid>
+    <v-row >
       <v-col md="10" sm="12" cols="12">
         <h1 class="google-font">Call for Presentations</h1>
         <p class="my-0 mb-8 h1-subheading">
@@ -8,11 +8,15 @@
           to make India DevFest a success. Locate your nearest Google Developer
           group and join the event as a Speaker right here!
         </p>
-
         <v-card
           outlined
           variant="flat"
-          style="background-color: white; border-radius: 15px; border: 0"
+          style="
+            background-color: white;
+            border-radius: 15px;
+            border: 0;
+            width: 100%;
+          "
         >
           <v-card-title>
             CFPs
@@ -29,9 +33,9 @@
           </v-card-title>
           <v-data-table
             :headers="headers"
-            :items="eventsData"
+            :items="JSON.parse(data)"
             :search="search"
-            width="100%"
+            style="width: 100%;"
             :mobile-breakpoint="0"
           >
             <template v-slot:[`item.CommunityName`]="{ item }">
@@ -62,7 +66,9 @@
               <a v-else class="disabled">Applications closed</a>
             </template>
             <template v-slot:[`item.deadline`]="{ item }">
-              {{ formatDate(item.CFP.LastDate) }}
+              {{
+                item.CFP.LastDate.length ? formatDate(item.CFP.LastDate) : "NA"
+              }}
             </template>
           </v-data-table>
         </v-card>
@@ -72,20 +78,25 @@
 </template>
   
 <script setup>
-const { eventsData, mainData } = useJSONData();
 definePageMeta({
   layout: "default",
 });
 const search = ref("");
-
 const headers = ref([
-  { title: "Community", value: "CommunityName" },
-  { title: "City", value: "City" },
-  { title: "DevFest", value: "DevFestName" },
-  { title: "DevFest Date", value: "StartingDate" },
-  { title: "CFP Link", value: "custom" },
-  { title: "CFP Deadline", value: "deadline" },
+  { title: "Community", key: "CommunityName", width: "10%" },
+  { title: "City", key: "City", width: "10%" },
+  { title: "DevFest", key: "DevFestName", width: "10%" },
+  { title: "DevFest Date", key: "Starting Date", width: "10%" },
+  { title: "CFP Link", key: "custom", width: "10%" },
+  { title: "CFP Deadline", key: "deadline", width: "10%" },
 ]);
+
+const { data, error } = await useAsyncData("getApiData", async () => {
+  const response = await $fetch(
+    "https://raw.githubusercontent.com/devfestindia/devfest-india-data-2024/refs/heads/main/data/events.json"
+  );
+  return response;
+});
 
 // Format date function
 function formatDate(dateStr) {
@@ -97,19 +108,22 @@ function formatDate(dateStr) {
 useSeoMeta({
   contentType: "text/html; charset=utf-8",
   title: "CFP | Google Developers Group India",
-  description: "Dive deep into the latest trends and innovations through talks, workshops, and more. It's a day filled with learning, networking, and inspiring ideas",
-  ogLocale:'en_US',
+  description:
+    "Dive deep into the latest trends and innovations through talks, workshops, and more. It's a day filled with learning, networking, and inspiring ideas",
+  ogLocale: "en_US",
   keywords: "GDG, DevFest, Google, DevFest",
   author: "OSS Labs",
   creator: "OSS Labs",
   viewport: "width=device-width, initial-scale=1.0",
   ogTitle: "CFP | Google Developers Group India",
-  ogDescription: "Dive deep into the latest trends and innovations through talks, workshops, and more. It's a day filled with learning, networking, and inspiring ideas",
+  ogDescription:
+    "Dive deep into the latest trends and innovations through talks, workshops, and more. It's a day filled with learning, networking, and inspiring ideas",
   ogImage: `https://devfest.gdgindia.dev/thumbnail.jpg`,
   ogUrl: "https://devfest.gdgindia.dev/",
   ogType: "website",
   twitterTitle: "CFP | Google Developers Group India",
-  twitterDescription: "Dive deep into the latest trends and innovations through talks, workshops, and more. It's a day filled with learning, networking, and inspiring ideas",
+  twitterDescription:
+    "Dive deep into the latest trends and innovations through talks, workshops, and more. It's a day filled with learning, networking, and inspiring ideas",
   twitterImage: `https://devfest.gdgindia.dev/thumbnail.jpg.png?auto=format&fit=crop&frame=1&h=512&w=1024`,
   twitterCard: "summary_large_image",
 });
