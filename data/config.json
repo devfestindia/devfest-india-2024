@@ -33,7 +33,7 @@
     "stats": [
       {
         "name": "Speakers",
-        "value": "400+",
+        "value": "500+",
         "color": "#FFE7A5",
         "image": "img/common/stats4.png"
       },
@@ -45,13 +45,13 @@
       },
       {
         "name": "Communities",
-        "value": "120",
+        "value": "77+",
         "color": "#CCF6C5",
         "image": "img/common/stats3.png"
       },
       {
         "name": "Events",
-        "value": "100+",
+        "value": "50+",
         "color": "#F8D8D8",
         "image": "img/common/stats2.png"
       },
