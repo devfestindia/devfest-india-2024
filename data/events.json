@@ -378,5 +378,24 @@
           "Link": "https://gdg.community.dev/gdg-kolkata/",
           "LastDate": "2023-12-02"
       }
-  }
+  },
+  {
+    "City":"Mangalore",
+    "CommunityName":"GDG Cloud Mangalore",
+    "DevFestName":"DevFest Mangalore",
+    "Days":"1",
+    "StartingDate":"2024-12-14",
+    "EndingDate":"2024-12-14",
+    "Venue":"Mangalore",
+    "Description":"This DevFest will be an achievement for the GDG Cloud Mangalore Team as we are all set to host the 1000+ developers by connecting the dots.",
+    "EventLink":"https://konfhub.com/gdg-cloud-mangalore-devfest-2024",
+    "CommunityPage":"https://gdg.community.dev/gdg-cloud-mangalore",
+    "Visible":"true",
+    "State":"Karnataka",
+    "CFP":{
+        "Status":"1",
+        "Link":"https://forms.gle/HAhrJBDFJKMUQycV6",
+        "LastDate":"2024-11-20"
+    }
+ }
 ]
