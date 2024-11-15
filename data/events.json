@@ -397,5 +397,25 @@
         "Link":"https://forms.gle/HAhrJBDFJKMUQycV6",
         "LastDate":"2024-11-20"
     }
- }
+  },
+    {
+      "City": "Jaipur",
+      "CommunityName": "GDG Jaipur",
+      "DevFestName": "DevFest Jaipur 2024",
+      "Days": "1",
+      "StartingDate": "2024-11-24",
+      "EndingDate": "2024-11-24",
+      "Venue": "Rajasthan International Centre, Jaipur ",
+      "Description": "DevFest is an annual decentralised tech conference hosted by Google Developer Groups across the globe. 2024 will be the 13th year of DevFest by GDG community. GDG Jaipur is organising DevFest 2023 in association Tensor Flow User Group Jaipur (TFUG Jaipur) and Google Cloud Jaipur. ",
+      "EventLink": "https://gdg.community.dev/events/details/google-gdg-jaipur-presents-devfest-jaipur-2024/",
+      "CommunityPage": "https://gdg.community.dev/gdg-jaipur/",
+      "Visible": true,
+      "State": "Rajasthan",
+      "CFP": {
+          "Status": "0",
+          "Link": "https://sessionize.com/devfest-jaipur-2024",
+          "LastDate": "2024-11-05"
+      }
+  }
+
 ]
