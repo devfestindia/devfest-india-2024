@@ -435,8 +435,8 @@
         "Link": "https://sessionize.com/devfest-chandigarh-2024/",
         "LastDate": "2024-11-23"
     }
-},
-{
+  },
+  {
     "City": "Jalandhar",
     "CommunityName": "GDG Jalandhar",
     "DevFestName": "DevFest Jalandhar 2024",
@@ -454,7 +454,5 @@
         "Link": "https://sessionize.com/dfj-24",
         "LastDate": "2024-11-18"
     }
-},
-
-
+  }
 ]
