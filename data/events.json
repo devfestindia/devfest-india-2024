@@ -416,6 +416,45 @@
           "Link": "https://sessionize.com/devfest-jaipur-2024",
           "LastDate": "2024-11-05"
       }
-  }
+  },
+  {
+    "City": "Chandigarh",
+    "CommunityName": "GDG Chandigarh",
+    "DevFestName": "DevFest Jaipur 2024",
+    "Days": "1",
+    "StartingDate": "2024-12-15",
+    "EndingDate": "2024-12-15",
+    "Venue": "D1 Auditorium, Chandigarh University, Chandigarh",
+    "Description": "Get ready for an unforgettable tech experience as GDG Chandigarh and GDG Cloud Chandigarh proudly present DevFest Chandigarh 2024! 🎉✨ Join us on 15th December 2024 at Chandigarh University for a day packed with innovative learning and fun. Don't miss out on this incredible opportunity to connect learn and grow with the best in the industry.",
+    "EventLink": "https://gdgchandigarh.in/events/devfest/home",
+    "CommunityPage": "https://gdg.community.dev/gdg-chandigarh/",
+    "Visible": true,
+    "State": "Chandigarh",
+    "CFP": {
+        "Status": "1",
+        "Link": "https://sessionize.com/devfest-chandigarh-2024/",
+        "LastDate": "2024-11-23"
+    }
+},
+{
+    "City": "Jalandhar",
+    "CommunityName": "GDG Jalandhar",
+    "DevFestName": "DevFest Jalandhar 2024",
+    "Days": "1",
+    "StartingDate": "2024-11-30",
+    "EndingDate": "2024-11-30",
+    "Venue": "DAV University, Jalandhar",
+    "Description": "DevFests Jalandhar is a  local tech conference hosted by Google Developer Groups, Jalandhar to bring technology closer to the local developer community of Jalandhar. DevFest Jalandhar event is being organised and crafted by Google Developer Groups Jalandhar organizers to fit the needs and interests of its local developer community. Whether it be through hands-on learning experiences, technical talks delivered in local languages by experts, or by simply meeting fellow local developers, DevFest attendees learn how to build together and innovate on Google's developer tools.",
+    "EventLink": "https://gdg.community.dev/events/details/google-gdg-jalandhar-presents-devfest-jalandhar-2024/cohost-gdg-jalandhar",
+    "CommunityPage": "https://gdg.community.dev/gdg-jalandhar/",
+    "Visible": true,
+    "State": "Punjab",
+    "CFP": {
+        "Status": "0",
+        "Link": "https://sessionize.com/dfj-24",
+        "LastDate": "2024-11-18"
+    }
+},
+
 
 ]
