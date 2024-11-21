@@ -455,4 +455,25 @@
         "LastDate": "2024-11-18"
     }
   }
+
+  {
+    "City": "Dehradun",
+    "CommunityName": "GDG Dehradun",
+    "DevFestName": "DevFest Dehradun 2024",
+    "Days": "1",
+    "StartingDate": "2024-11-30",
+    "EndingDate": "2024-11-30",
+    "Venue": "Hotel Alaknanda, Dehradun",
+    "Description": "DevFest is a global, decentralized tech conference hosted by the Google Developer Groups (GDG) community. Each DevFest event is crafted by its local organizers to fit their local developer community's learning needs and interests, with a strong focus on knowledge exchange and networking. We are excited to host DevFest in Dehradun on November 30th, 2024.",
+    "EventLink": "https://gdg.community.dev/events/details/google-gdg-dehradun-presents-devfest-1/",
+    "CommunityPage": "https://gdg.community.dev/gdg-dehradun/",
+    "Visible": true,
+    "State": "Uttarakhand",
+    "CFP": {
+        "Status": "0",
+        "Link": "https://gdg.community.dev/gdg-dehradun/",
+        "LastDate": "2024-11-22"
+    }
+  }
+
 ]
