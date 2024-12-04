@@ -454,5 +454,24 @@
         "Link": "https://sessionize.com/dfj-24",
         "LastDate": "2024-11-18"
     }
+  },
+  {
+    "City": "Gwalior",
+    "CommunityName": "GDG Gwalior",
+    "DevFestName": "DevFest Gwalior 2024",
+    "Days": "1",
+    "StartingDate": "2024-12-21",
+    "EndingDate": "2024-12-21",
+    "Venue": "Gwalior",
+    "Description": "GDG Gwalior DevFest 2024 is a dynamic tech event featuring expert sessions, hands-on workshops, and networking opportunities. Join us to explore cutting-edge technologies, share knowledge, and connect with the developer community!",
+    "EventLink": "https://gdg.community.dev/events/details/google-gdg-gwalior-presents-devfest-gwalior-2024/",
+    "CommunityPage": "https://gdg.community.dev/gdg-gwalior/",
+    "Visible": true,
+    "State": "Madhya Pradesh",
+    "CFP": {
+        "Status": "0",
+        "Link": "",
+        "LastDate": ""
+    }
   }
 ]
