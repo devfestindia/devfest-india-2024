@@ -493,6 +493,25 @@
         "Link": "https://gdg.community.dev/gdg-dehradun/",
         "LastDate": "2024-11-22"
     }
+  },
+  {
+    "City": "Bhopal",
+    "CommunityName": "GDG Cloud Bhopal",
+    "DevFestName": "DevFest Bhopal",
+    "Days": "1",
+    "StartingDate": "2024-12-21",
+    "EndingDate": "2024-12-21",
+    "Venue": "LNCT Group of Colleges Auditorium, Raisen Rd, nr. Hanuman Mandir, Kalchuri Nagar, Bhopal, Madhya Pradesh 462022",
+    "Description": "DevFest is an annual decentralised tech conference hosted by Google Developer Groups across the globe. 2024 will be the 13th year 🎉 of DevFest which marks the beginning of the second decade of the GDG community.",
+    "EventLink": "https://gdg.community.dev/events/details/google-gdg-cloud-bhopal-presents-devfest-bhopal/",
+    "CommunityPage": "https://gdg.community.dev/gdg-cloud-bhopal/",
+    "Visible": "true",
+    "State": "Madhya Pradesh",
+    "CFP": {
+      "Status": "1",
+      "Link": "https://forms.gle/vMXidZAxjAguRUXQ6",
+      "LastDate": "2024-12-08"
+    }
   }
 
 ]
